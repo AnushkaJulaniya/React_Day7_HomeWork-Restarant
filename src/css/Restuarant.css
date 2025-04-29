@@ -1,0 +1,165 @@
+.Restaurant-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    font-family:sans-serif;
+}
+.search-rating{
+    display:flex;
+    justify-content: space-between;
+   width: 90%;
+   padding:20px;
+}
+.search-restua{
+    width:300px;
+   border-radius:4px;
+   border:1px solid rgb(222, 215, 215);
+   padding:12px;
+   font-size:1rem;
+}
+.rating{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    font-size:1.2rem;
+
+}
+
+.rating-points{
+    padding:10px;
+   border:1px solid rgb(222, 215, 215);
+  border-radius: 4px;
+}
+.restua-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+
+.restaurant-card {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: 0 0 5px 0 rgba(167, 163, 163, 0.5);
+    border-radius:10px;
+}
+.restau-name{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-size: 1.2rem;
+    
+}
+
+.address{
+ font-size:0.9rem;
+ font-weight:500;
+ color:rgb(97, 96, 96);
+
+}
+.address-code{
+    margin-bottom:30px;
+    font-size:1rem;
+    font-weight:500;
+    color:rgb(76, 74, 74);
+   }
+
+
+.restau-name, .address , .address-code {
+    margin-left:20px;
+    margin-top: 10px;
+}
+#stars{
+   width:1.2rem;
+   height:2rem;
+}
+/* .
+star-rating{
+    margin-left: 4px;
+} */
+.restra-menu {
+    padding:20px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+    background-color: rgb(243, 243, 243);
+
+}
+.star-rating{
+    width: 30px;
+    height: 30px;
+}
+.colorYellow{
+    color: gold;
+}
+.colorGray{
+    color: gray;
+}
+.food-type{
+    font-size: 1.25rem;
+    font-weight: 200;
+    color:rgb(12, 160, 12);
+}
+.fork-icon{
+    font-size: 1rem;
+    font-weight:bold;
+
+
+}
+.anchor-link a{
+    color: rgb(61, 94, 243);
+    font-size: 1.25rem;
+    font-weight: 200;
+    text-decoration: none;
+    
+}
+.anchor-link:hover{
+    text-decoration: underline;
+}
+.pagination{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    padding:20px;
+    gap:10px;
+    cursor: pointer;
+    margin:30px;
+    
+}
+.pagination__link{
+    padding:10px 15px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+  font-weight:bold;
+  color:rgb(244, 243, 243);
+  cursor: pointer;
+background-color: #191c1c;
+transition: background-color 0.3s, color 0.3s;
+
+
+}
+.pagination__link:hover{
+    background-color: #c1c0c5;
+    color:#0b0b0b;
+}
+.pagination__link--disabled{
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+
+}
+.pagination__link--active{
+    background-color: #8b8c8c;
+    padding:4px 8px;
+    margin:0 20px;
+    color:white;
+
+}
